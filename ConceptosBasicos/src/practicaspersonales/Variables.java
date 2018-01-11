@@ -1,0 +1,19 @@
+package practicaspersonales;
+
+public class Variables {
+
+    public static void main(String[] args) {
+        int pizzas = 6;
+        int personas = 3;
+        int PizzasporPersona = pizzas/personas;
+        System.out.printf("Si hay %d pizzas y %d personas, a cada una le tocan %d pizzas\n", pizzas, personas, PizzasporPersona);
+        String auto = "Ferrari";
+        double velocidad = 90.3;
+        System.out.printf ("El auto %s se desplaza a %f km/h\n", auto, velocidad);
+        int precioLeche = 14;
+        double precioJamon = 35.6;
+        int precioHuevos = 23;
+        double precioTotal = precioLeche + precioJamon + precioHuevos;
+        System.out.printf("El precio total es: %f\n", precioTotal);
+    }
+}
